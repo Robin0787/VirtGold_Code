@@ -4,6 +4,27 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Scroll bar design for category menu*/
+#mobile-menu::-webkit-scrollbar {
+  width: 4px;
+}
+
+#mobile-menu::-webkit-scrollbar-track {
+  background: #888;
+  border-radius: 4px; /* You can change this color to your preference */
+}
+
+#mobile-menu::-webkit-scrollbar-thumb {
+  background-color: #241f36; /* You can change this color to your preference */
+  border-radius: 4px;
+}
+
+/* Scroll bar design for filtering menu*/
+#filtering-menu::-webkit-scrollbar,
+#experience::-webkit-scrollbar {
+  display: none;
+}
+
 /* CSS for home page banner section */
 .home-banner {
   background-image: url("./assets/Home/Polygon.png"),
