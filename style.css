@@ -25,6 +25,24 @@
   display: none;
 }
 
+/* CSS For category menu */
+.selected-category {
+  border-left: 2px solid;
+  border-color: #fcab00;
+  background-color: #1d182d;
+}
+.selected-category-mobile {
+  border-left: 2px solid;
+  border-color: #fcab00;
+  background-color: #1d182d;
+}
+
+/* CSS For filer button element */
+.selected {
+  background-color: #fcab00;
+  color: #27213c;
+}
+
 /* CSS for home page banner section */
 .home-banner {
   background-image: url("./assets/Home/Polygon.png"),
